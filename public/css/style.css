@@ -1,59 +1,62 @@
 .invert:hover {
 	-webkit-filter: invert(100%);
 	filter: invert(100%);
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .wave {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/wavePurple.svg) repeat-x;
-  position: absolute;
-  top: 76.6rem;
-  width: 808.08rem;
-  height: 25rem;
-  animation: wave 12s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite, swell 8s ease -1.25s infinite;;
-  transform: translate3d(0, 0, 0);
-  filter: invert(48%) sepia(81%) saturate(601%) hue-rotate(343deg) brightness(97%) contrast(97%);
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/wavePurple.svg)
+		repeat-x;
+	position: absolute;
+	top: 76.6rem;
+	width: 808.08rem;
+	height: 25rem;
+	animation: wave 12s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite,
+		swell 8s ease -1.25s infinite;
+	transform: translate3d(0, 0, 0);
+	filter: invert(48%) sepia(81%) saturate(601%) hue-rotate(343deg)
+		brightness(97%) contrast(97%);
 }
 
 @keyframes wave {
-  0% {
-    margin-left: 0;
-  }
-  100% {
-    margin-left: -202.02rem;
-  }
+	0% {
+		margin-left: 0;
+	}
+	100% {
+		margin-left: -202.02rem;
+	}
 }
 @keyframes swell {
-  0%,
-  100% {
-    transform: translate3d(0, -40px, 0);
-  }
-  50% {
-    transform: translate3d(0, -10px, 0);
-  }
+	0%,
+	100% {
+		transform: translate3d(0, -40px, 0);
+	}
+	50% {
+		transform: translate3d(0, -10px, 0);
+	}
 }
 
-.scrollup{
-  transition: all .3s ease-out;
+.scrollup {
+	transition: all 0.3s ease-out;
 }
-.scrollup:hover{
-  transform: translate(0, -52.4rem);
+.scrollup:hover {
+	transform: translate(0, -52.4rem);
 }
 
-.scrollback{
-  animation: back 10s infinite;
+.scrollback {
+	animation: back 10s infinite;
 }
 
 @keyframes back {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(-30vw, 0);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
+	0% {
+		transform: translate(0, 0);
+	}
+	50% {
+		transform: translate(-30vw, 0);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
 }
 
 .underline::after {
@@ -67,7 +70,7 @@
 	transform: scale(0);
 }
 .underline:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 .underline:hover::after {
 	transform: scale(1);
@@ -78,6 +81,32 @@
 }
 
 .shopNow {
-    padding-bottom: 10rem;
-    width: 100%;
+	padding-bottom: 10rem;
+	width: 100%;
+}
+
+.toRight {
+	position: relative;
+	display: inline-block;
+	padding: 15px 70px;
+	border: 3px solid #eeeeee;
+	color: #eeeeee;
+	font-size: 30px;
+	font-family: arial;
+	background: linear-gradient(263.7deg, #eeeeee 184.09%, #969696 312.52%);
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+	background-size: 0% 100%;
+	transition: background-size 0.5s, color 0.5s;
+}
+
+.toRight:hover {
+	background-size: 100% 100%;
+	color: #fff;
+	cursor: pointer;
+}
+
+.fadeIn {
+	opacity: 1 !important;
+	transition: 1s all ease-in-out;
 }

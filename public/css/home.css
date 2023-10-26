@@ -1512,6 +1512,7 @@ body {
 	top: 31.2rem;
 	object-fit: contain;
 	vertical-align: top;
+  cursor: pointer;
 }
 .homepage-BQN .auto-group-9rtc-jAr .highlights-dQW .cart-Tdk {
 	width: 3rem;
@@ -1521,6 +1522,7 @@ body {
 	top: 31.2rem;
 	object-fit: contain;
 	vertical-align: top;
+  cursor: pointer;
 }
 .homepage-BQN .auto-group-9rtc-jAr .perks-y6J {
 	width: 151rem;
@@ -2027,6 +2029,7 @@ body {
 	height: 100%;
 	position: relative;
 	flex-shrink: 0;
+  opacity: 0;
 }
 .homepage-BQN
 	.auto-group-9rtc-jAr
@@ -2107,6 +2110,7 @@ body {
 	height: 100%;
 	position: relative;
 	flex-shrink: 0;
+  opacity: 0;
 }
 .homepage-BQN
 	.auto-group-9rtc-jAr
@@ -2218,6 +2222,7 @@ body {
 	height: 100%;
 	position: relative;
 	flex-shrink: 0;
+  opacity: 0;
 }
 .homepage-BQN
 	.auto-group-9rtc-jAr
@@ -2298,6 +2303,7 @@ body {
 	height: 100%;
 	position: relative;
 	flex-shrink: 0;
+  opacity: 0;
 }
 .homepage-BQN
 	.auto-group-9rtc-jAr
@@ -2394,6 +2400,7 @@ body {
 	font-family: Poppins, "Source Sans Pro";
 	white-space: nowrap;
 	flex-shrink: 0;
+  opacity: 0;
 }
 .homepage-BQN
 	.auto-group-9rtc-jAr
@@ -2438,6 +2445,7 @@ body {
 	line-height: 1.5;
 	color: #ffffff;
 	font-family: Poppins, "Source Sans Pro";
+  opacity: 0;
 }
 .homepage-BQN .footer-dvi {
 	box-sizing: border-box;
